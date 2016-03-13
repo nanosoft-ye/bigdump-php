@@ -4,6 +4,10 @@
 
 **Description**: Staggered import of large and very large MySQL Dumps (like phpMyAdmin dumps) even through the web servers with hard runtime limit and those in safe mode. The script imports only a small part of the huge dump and restarts itself. The next session starts where the last was stopped.
 
+## Credits
+
+This code is originally written by [Alexey Ozerov][3].
+
 ## Usage
 
 1. Download and unzip [_bigdump.zip_][1] on your PC.
@@ -39,3 +43,4 @@ War dieser Beitrag hilfreich? Empfehlen Sie ihn weiter!
 
 [1]: http://www.ozerov.de/bigdump.zip
 [2]: http://www.ozerov.de/bigdump/support/ "Support"
+[3]: http://www.ozerov.de/bigdump/
